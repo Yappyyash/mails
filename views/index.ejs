@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="msapplication-TileColor" content="#0ed3cf" />
+  <meta name="theme-color" content="#0ed3cf" />
+  <title>Placement TimeTable</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body{
+    background-image:linear-gradient(to right, #8e2de2, #4a00e0)
+    }
+  </style>
+</head>
+
+<body class="bg-gray-200">
+
+    <form action="/fetch-emails" method="POST">
+      <div class="w-[100vw] h-[100vh] px-3 sm:px-5 flex items-center justify-center absolute">
+        <div class="w-full sm:w-1/2 lg:2/3 px-6 bg-gray-500 bg-opacity-50 bg-clip-padding backdrop-filter backdrop-blur-sm text-white z-50 py-4 rounded-lg">
+          <div class="w-full flex justify-center text-[#00FF00] text-xl mb:2 md:mb-5">
+            Sign In
+          </div>
+          <div class="mb-6">
+            <label for="user" class="block mb-2 text-xs font-medium text-white">Your email</label>
+            <input type="email" id="user" name="user" class="bg-gray-50 border border-gray-300 text-gray-900 text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 md:p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="@gla.ac.in" required="" />
+          </div>
+          <div class="mb-6">
+            <label for="password" class="block mb-2 text-xs font-medium text-white">Your password</label>
+            <input type="password" id="password" name="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 md:p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="" placeholder="**********" />
+          </div>
+          <div class="mb-6">
+            <label for="no" class="block mb-2 text-xs font-medium text-white">No. of Emails</label>
+            <input type="number" id="no" name="no" class="bg-gray-50 border border-gray-300 text-gray-900 text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 md:p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="" placeholder="100" min="10" step="10"/>
+          </div>
+        
+          <button type="submit" class="mt-4 md:mt-10 w-full flex justify-center text-sm md:text-xl bg-[#00FF00] py-2 rounded-md">FETCH MAILS</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>

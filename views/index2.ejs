@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email List</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid black;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Important Date</h1>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th>From</th>
+        <th>Date</th>
+        <th>Subject</th>
+        <th>Schedule</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (let i = 0; i < emails.length; i++) { %>
+        <tr>
+            <td><%= emails[i].from %></td>
+            <td><%= emails[i].date %></td>
+            <td><%= emails[i].subject %></td>
+            <td><%= emails[i].body %></td>
+        </tr>
+    <% }; %>
+    </tbody>
+  </table>
+</body>
+</html>
