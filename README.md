@@ -1,5 +1,5 @@
 # mails
-If you are finding difficulties in finding dates and regularly changing in drives or confuse in cancel drive by university made a simple application that can help you manage your schedule more efficiently. With this app, you can easily input your officially mail id, allowing you to easily schedule and cancel drives with ease. to help you keep track of all your scheduled dates and drives.
+If you are finding difficulties in finding dates and regularly changing in drives or confuse in cancel drive by GLA university, i made a simple application that can help you manage your schedule more efficiently. With this application, you can easily input your officially mail id, allowing you to easily  look after your re-schedule and cancel drives with ease. which help you keep track of all your scheduled dates and drives in a organized way.
 
 
 # Commands to run 
